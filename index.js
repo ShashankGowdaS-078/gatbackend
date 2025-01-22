@@ -160,11 +160,11 @@ app.use(cors());
 
 // const user = mongoose.model("user", mySchema);
 
-app.post("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Servre running");
 
 });
-app.post("/global", (req, res) => {
+app.get("/global", (req, res) => {
     res.send("global ge bal");
 
 });
